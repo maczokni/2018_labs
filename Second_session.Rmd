@@ -64,7 +64,7 @@ A traditional method of representing the earth’s shape is the use of globes. W
 
 The process of creating map projections can be visualised by positioning a light source inside a transparent globe on which opaque earth features are placed. Then project the feature outlines onto a two-dimensional flat piece of paper. Different ways of projecting can be produced by surrounding the globe in a cylindrical fashion, as a cone, or even as a flat surface. Each of these methods produces what is called a map projection family. Therefore, there is a family of planar projections, a family of cylindrical projections, and another called conical projections [see figure_projection_families](http://docs.qgis.org/2.8/en/_images/projection_families.png)
 
-![figure_projection_families](http://docs.qgis.org/2.8/en/_images/projection_families.png)
+![figure_projection_families](https://raw.githubusercontent.com/maczokni/2018_labs/master/img/projection_families.png)
 
 
 With the help of coordinate reference systems (CRS) every place on the earth can be specified by a set of three numbers, called coordinates. In general CRS can be divided into projected coordinate reference systems (also called Cartesian or rectangular coordinate reference systems) and geographic coordinate reference systems.
@@ -118,13 +118,13 @@ For now, let's focus on the selector options. Here you can choose the country yo
 ***
 
 
-![](/https://raw.githubusercontent.com/maczokni/QSTEP/imgs/boundary_selector_1.png) 
+![](https://raw.githubusercontent.com/maczokni/QSTEP/master/imgs/boundary_selector_1.png) 
 
 Once you have selected these options, click on the "Find" button. That will populate the box below: 
 
 ***
 
-![](/https://raw.githubusercontent.com/maczokni/QSTEP/imgs/boundary_selector_2.png)
+![](https://raw.githubusercontent.com/maczokni/QSTEP/master/imgs/boundary_selector_2.png)
 
 ***
 
@@ -135,7 +135,7 @@ Once you've made your choice, click on "List Areas". This will now populate the 
 
 ***
 
-![](/https://raw.githubusercontent.com/maczokni/QSTEP/imgs/boundary_selector_3.png) 
+![](https://raw.githubusercontent.com/maczokni/QSTEP/master/imgs/boundary_selector_3.png) 
 
 
 ***
@@ -147,7 +147,7 @@ Once you've made your decision click on the "Extract Boundary Data" button. You 
 ***
 
 
-![](/https://raw.githubusercontent.com/maczokni/QSTEP/imgs/wait.png)
+![](https://raw.githubusercontent.com/maczokni/QSTEP/master/imgs/wait.png)
 
 
 ***
@@ -160,7 +160,7 @@ When your data is read, you will see the following message:
 ***
 
 
-![](/https://raw.githubusercontent.com/maczokni/QSTEP/imgs/download.png)  
+![](https://raw.githubusercontent.com/maczokni/QSTEP/master/imgs/download.png)  
 
 
 ***
@@ -172,7 +172,7 @@ You have to right click on the "BoundaryData.zip", and hit Save Target as on a P
 ***
 
 
-![](/https://raw.githubusercontent.com/maczokni/QSTEP/imgs/save_link_as.png) 
+![](https://raw.githubusercontent.com/maczokni/QSTEP/master/imgs/save_link_as.png) 
 
 
 ***
@@ -182,7 +182,7 @@ Navigate to the folder you have created for this analysis, and save the .zip fil
 
 ***
 
-![](/https://raw.githubusercontent.com/maczokni/QSTEP/imgs/folder_contents.png)
+![](https://raw.githubusercontent.com/maczokni/QSTEP/master/imgs/folder_contents.png)
 
 
 ***
@@ -249,7 +249,7 @@ You can simply set your working directiory using the graphical user interface of
 
 Click on Session > Set working directory > Choose directory...
 
-![Set working directory](/Users/reka/Desktop/course-incubator/images/setwd.png)
+![Set working directory](https://github.com/maczokni/2018_labs/raw/master/img/setwd.png)
 
 Then navigate to the folder you want to use, open it, and click on 'Open'.
 
@@ -274,7 +274,7 @@ So for you to be able to use this method, you need to find the filepath to your 
 On a mac you can find the path to a specific file or folder by first opening Terminal, then opening Finder and navigating to the folder or file in Finder. Once you have found it, just drag and drop the folder or file it into the Terminal window. This will print out the path to your file or folder. You can then copy this, and paste it into the `setwd()` function. 
 
 
-![Find mac file path](/Users/reka/Desktop/course-incubator/images/find_file_path.gif)
+![Find mac file path](https://github.com/maczokni/2018_labs/raw/master/img/find_file_path.gif)
 
 
 
@@ -282,7 +282,7 @@ On a mac you can find the path to a specific file or folder by first opening Ter
 On a PC, you can fing a path to a file or folder by navitgating to it using *Windows Explorer* and once there, copying the file path from the top bar. This is illustrated by the red circle below:
 
 
-![Find pc file path](/Users/reka/Desktop/course-incubator/images/windows_file_path.png)
+![Find pc file path](https://github.com/maczokni/2018_labs/raw/master/img/windows_file_path.png)
 
 
 NOTE: When you copy this file path from the PC version, you will have to change the direction of the dashes, when passing this as a text string to a variable in Python. So you will have to replace all backslash (`\`) with forwardslash (`/`).
