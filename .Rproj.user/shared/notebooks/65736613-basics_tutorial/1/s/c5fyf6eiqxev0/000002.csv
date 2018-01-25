@@ -1,0 +1,4 @@
+"0","```r
+listOfNums <- c(\"1\", \"2\", \"three\", \"4\", \"five\")
+as.numeric(listOfNums)
+```"

@@ -1,0 +1,5 @@
+"0","```r
+my_8th_vector <- c(0.5, \"a\")
+class(my_8th_vector) #The class() function will tell us the class of the vector
+
+```"

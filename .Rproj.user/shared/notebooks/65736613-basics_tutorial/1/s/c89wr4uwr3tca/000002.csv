@@ -1,0 +1,9 @@
+"0","```r
+
+#this function will return the double of any number passed to it
+#to call the function type doubleThisNumber(), and inside the brackets enter a number
+doubleThisNumber <- function(x){
+  x*2 
+}
+
+```"

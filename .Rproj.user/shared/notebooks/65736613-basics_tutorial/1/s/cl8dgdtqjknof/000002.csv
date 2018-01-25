@@ -1,0 +1,9 @@
+"0","```r
+my_1st_vector <- c(0.5, 0.6) #creates a numeric vector with two elements
+my_2nd_vector <- c(1L, 2L) #creates an integer vector
+my_3rd_vector <- c(TRUE, FALSE) #creates a logical vector
+my_4th_vector <- c(T, F) #creates a logical vector using abbreviations of True and False, but you should avoid this formulation an instead use the full word.
+my_5th_vector <- c(\"a\", \"b\", \"c\") #creates a character vector
+my_6th_vector <- c(1+0i, 2+4i) #creates a complex vector (we won't really use this class)
+
+```"

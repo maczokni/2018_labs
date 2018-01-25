@@ -1,0 +1,8 @@
+"0","```r
+class(my_1st_vector) #to figure out the class of the vector
+length(my_1st_vector) #to figure out the lenght of the vector
+my_1st_vector + 2 #Add a constant to each element of the vector
+my_7th_vector <- my_1st_vector + 1 #Create a new vector that contains the elements of my1stvector plus a constant of 1
+my_1st_vector + my_7th_vector #Adds the two vectors and auto-print the results (note how the sum was done)
+
+```"

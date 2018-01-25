@@ -1,0 +1,5 @@
+"0","```r
+exampleDf <- data.frame(\"name\" = c(\"bob\", \"bobbie\", \"bobette\"),
+                        \"gender\" = c(\"male\", \"male\", \"female\"), 
+                        \"height\" = c(178, 154, 164))
+```"

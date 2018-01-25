@@ -1,0 +1,9 @@
+"0","```r
+the_smiths <- factor(c(\"Morrisey\", \"Marr\", \"Rourke\", \"Joyce\")) #create a new factor
+the_smiths #auto-print the factor
+#Alternatively for similar result using the as.factor() function
+the_smiths_bis <- c(\"Morrisey\", \"Marr\", \"Rourke\", \"Joyce\") #create a character vector
+the_smiths_f <- as.factor(the_smiths_bis) #create a factor
+the_smiths_f #auto-print factor
+
+```"
